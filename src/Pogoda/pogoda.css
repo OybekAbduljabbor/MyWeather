@@ -1,0 +1,161 @@
+.card_pogoda {
+    font-family: sans-serif;
+    width: 800px;
+    height: 500px;
+    background-color: #4592eb9c;
+    box-shadow: 4px 10px 17px -5px rgba(255, 255, 255, 0.54);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: default;
+
+}
+
+#card_top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    padding: 35px 50px;
+}
+
+.top_content {
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#clock {
+    font-size: 34px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+
+
+}
+
+#hour {
+    width: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #ffffff;
+
+
+}
+
+#sec {
+    animation: sec 1s infinite;
+    width: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3px;
+
+}
+
+#miut {
+    width: 40px;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    color: #ffffff;
+
+}
+
+@keyframes sec {
+    0% {
+        color: rgb(75, 75, 75);
+    }
+
+    100% {
+        color: rgb(255, 255, 255);
+    }
+}
+
+#input_value {
+    border: none;
+    background: none;
+    outline: none;
+    width: 200px;
+    height: 35px;
+
+    font-size: 24px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    border-radius: 30px;
+    color: #ffffff;
+}
+
+#input_value::-webkit-input-placeholder {
+    color: #ffffffa2;
+}
+
+#davlat {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+#shaxar {
+    color: #ffffff;
+}
+
+
+
+
+#card_center {
+    font-size: 160px;
+    color: #ffffff;
+
+}
+
+#card_bottom {
+    padding: 35px 50px;
+    width: 100%;
+    height: 150px;
+    background-color: #0f0f1bd7;
+    border-radius: 0 0 30px 30px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#card_pro {
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+#box_vl {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 150px;
+}
+
+#logo_vl {
+    width: 23px;
+}
+
+#p_teg {
+    color: #fff;
+    margin-left: 10px;
+    font-size: 23px;
+}
